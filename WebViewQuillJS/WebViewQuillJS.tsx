@@ -63,18 +63,7 @@ class WebViewQuillJS extends React.Component<WebViewQuillJSProps, State> {
       console.warn("Unable to resolve index file");
     }
   };
-
-  componentDidUpdate = (prevProps: WebViewQuillJSProps, prevState: State) => {
-    const { webviewContent } = this.state;
-    const { content } = this.props;
-    if (!prevState.webviewContent && webviewContent) {
-      this.updateDebugMessages("file loaded");
-    }
-    if (content !== prevProps.content) {
-      this.sendMessage({ content });
-    }
-  };
-
+  
   // Handle messages received from webview contents
   private handleMessage = (data: string) => {
     const { onMessageReceived } = this.props;
