@@ -1,0 +1,19 @@
+{
+  "name": "react-native-webview-quilljs",
+  "version": "1.0.0",
+  "description": "mwi integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylancoots-mwi/react-native-webview-quilljs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dylancoots-mwi/react-native-webview-quilljs/issues"
+  },
+  "homepage": "https://github.com/dylancoots-mwi/react-native-webview-quilljs#readme"
+}
